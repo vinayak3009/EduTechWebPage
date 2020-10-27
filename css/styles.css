@@ -1,0 +1,706 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+
+}
+html {
+  scroll-behavior: smooth;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Playfair Display', serif;
+}
+p{
+    font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6;
+
+}
+
+/* ******************************************* Header CSS below ****************************************** */
+.header{
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100px;
+   background: linear-gradient(to top, #09203f 0%, #537895 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: #214252
+}
+
+.header-svg{
+  margin-top: 200px;
+  width: 400px;
+}
+
+.brand{
+  margin-top:100px;
+  font-family: 'Playfair Display', serif;
+ font-size: 80px;
+ color: white;
+}
+
+.header:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.navbar:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.8;
+  z-index: -1;
+   background:linear-gradient(rgba(9, 32, 63, 0.8),rgba(9, 32, 63, 0.8));
+}
+
+.nav-item a{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+.nav-item a:hover{
+  color: black;
+}
+
+.header-section{
+  width: 100%;
+  height: inherit;
+  color: white;
+  text-align: center;
+  position: relative;
+
+}
+.centre-text{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.header-buttons a{
+  border:1px solid white;
+  border-radius: 10px;
+  margin: 0 5px;
+  padding: 12px 35px;
+  outline: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+}
+.header-buttons a:hover{
+  background-color: white;
+  color: #af460f;
+  text-decoration: none;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.6);
+
+}
+.centre-text p{
+  font-size: 1.4rem;
+  padding: 10px 0 20px;
+
+}
+
+/* ******************************************* Review section CSS below ****************************************** */
+.colmns{
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 100%;
+  padding: 50px ;
+  transition: 0.3s;
+  border: medium none;
+  /* background-color: #ffeb99; */
+  background-color: #09203f;
+
+}
+.review-person{
+  width: 110px;
+  border-radius: 100%;
+  position: absolute;
+  left: 10px;
+  top: 0px;
+
+}
+
+.slideinner{
+  width: 82.5% !important;
+  height: 100%;
+  margin-left: 116px !important;
+  padding: 70px 20px !important;
+  background: #cfd9df;
+  margin-bottom: 0px;
+  margin-top: 0;
+
+}
+
+.slidebtn{
+  margin: 0 -15px !important;
+  width: 10% !important;
+background: #cfd9df;
+}
+
+.box1{
+  box-model: border-box;
+  border: 10px solid transparent;
+  background-clip:padding-box;
+}
+
+.box1:hover{
+  box-shadow: 0 0 20px 5px rgba(175, 70, 15, 0.6);
+  transform: translateY(-20px);
+}
+
+.header-extradiv h1,p{
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  padding-bottom: 10px;
+}
+.header-extradiv p{
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  padding-bottom: 10px;
+  color: #aaaaaa !important;
+}
+
+.header-extradiv h2 , .service-div h2{
+text-align: center;
+color: white;
+font-size: 1.2rem;
+margin: 30px 0 0px 0;
+font-weight: bold;
+line-height: 1.1;
+word-spacing: 4px;
+
+}
+.colmns p{
+  color: black;
+  padding: 30px;
+  font-size: 15px;
+}
+ i {
+ color: #de7119;
+}
+
+/* ******************************************* Subjects div CSS below ****************************************** */
+.subjectSVG{
+  padding: 50px 0 10px 40px;
+  width: 180px;
+}
+
+.subject{
+  margin-top: 0;
+  padding: 50px 0;
+  background-color: #09203f;
+  color: white;
+}
+.subName{
+  color: black;
+  padding-top: 20px;
+  padding-left: 50px;
+  text-align: left;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.subDesc{
+  color: black;
+  font-weight: 200 !important;
+  font-size: 0.8rem !important;
+  text-align: left;
+  padding: 0 0 10px 50px;
+}
+.knowMorebtn{
+  width: 70%;
+  color: white !important;
+  margin: 0 50px;
+}
+
+/* ******************************************* Counter section CSS below ****************************************** */
+
+.counter{
+  padding: 40px;
+  background: #09203f;
+  color: white;
+}
+.counter h2{
+  color: white;
+  padding-top: 50px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* ******************************************* Benefits div CSS below ****************************************** */
+
+.benefit-div{
+  width: 100%;
+  height:auto;
+  padding: 80px;
+  position: relative;
+  color: black;
+  padding-bottom: 50px;
+  background: #cfd9df;
+}
+
+.benefit-desc{
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
+  padding-bottom: 40px;
+}
+
+.benefitSVG{
+  margin-left: 20px;
+  width: 100px;
+  margin-top: 15px;
+}
+.benefit-div h2{
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 40px;
+  font-weight: bolder;
+}
+.benefit-div p{
+  color: white;
+  font-size: 13px;
+  text-align: left;
+  padding: 0 40px 20px ;
+  font-weight:lighter;
+}
+
+.img-desc{
+  text-align: center;
+  color: black;
+  padding: 20px 0 ;
+  font-weight: bold;
+  border-style: 2px solid;
+  background:  linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4));
+}
+
+.card-text{
+  font-size: 15px;
+}
+
+.benefit-div:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-color:
+  /* background: linear-gradient(90deg,#cfd9df 55%,#09203f 0); */
+}
+.rightclm{
+  background: #09203f;
+  padding: 50px 40px;
+}
+
+/* ******************************************* Classes div CSS below ****************************************** */
+.classes-div{
+  padding: 50px 80px;
+  background: linear-gradient(160deg,#cfd9df 50%,#09203f 0%);
+}
+.classes-div h1{
+  text-align: center;
+  font-weight: bold;
+}
+
+.class-btn{
+  width: 70%;
+  margin: 5px;
+}
+.class-btn:hover{
+  box-shadow: 0 0 20px 5px rgba(175, 70, 15, 0.6);
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+.class7-10{
+  margin-top: 20px ;
+}
+
+.dropbtn{
+  position: relative;
+  z-index: 1;
+}
+.dropdown{
+
+  background-color: #f5c16c !important;
+   width: 100px !important;
+
+}
+
+.btn {
+  border: none!important;
+  background-color: #de7119!important;
+}
+.btn:hover {
+  color: black!important;
+
+}
+
+/* ******************************************* CSS below ****************************************** */
+.carousel-indicators{
+  margin-bottom: -30px;
+}
+.carousel-indicators li{
+  background-color: black !important;
+}
+.box a{
+  position: relative;
+}
+.box  img {
+  width: 110px;
+  height: 120px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.box a:after{
+  content:"\f10d";
+  font-family: fontawesome;
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(to right,#f5c16c,#f5c16c 0%,#f5c16c 100%);
+  color: white;
+  position: absolute;
+  top: 130%;
+  left: 80%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box h2{
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* ******************************************* Join div CSS below ****************************************** */
+
+.join{
+  width: 100%;
+  height: 100%;
+  padding: 80px 0 50px;
+  position: relative;
+  color: white;
+}
+.join:before{
+  content: "";
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(-165deg,#cfd9df 55%,#09203f 0%);
+  z-index: -1;
+}
+.join p{
+  color: white;
+}
+
+
+/* ******************************************* Footer CSS below ****************************************** */
+.footer{
+  padding-top: 40px;
+  background-color: #cfd9df;
+  margin-bottom: -10px;
+
+}
+.footer h3{
+font-size: 1.6rem;
+}
+.footer p{
+font-size: 0.8rem;
+color: black;
+}
+.copyrights{
+  padding-top:40px;
+  padding-bottom: 10px;
+}
+
+.footerlinks{
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+.footerlinks:hover{
+  text-decoration: none;
+  color: white;
+}
+.footer .fab li{
+  color: black;
+}
+
+
+/* ********************************* MEDIA QUERIES FOR MOBILE RESPONSIVENESS ****************************** */
+/*----MEDIA QUERY -------------*/
+@media (max-width:1000px) {
+
+
+  .header-svg{
+    margin-top: 420px;
+    width: 200px;
+  }
+
+  .brand{
+    margin-top:500px;
+  font-family: 'Playfair Display', serif;
+   font-size: 50px;
+  }
+
+  .navbar:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.7;
+    z-index: -1;
+  }
+
+  .header-buttons a{
+    border-radius: 10px;
+    margin: 0 5px;
+    padding: 8px 25px;
+    outline: none;
+    font-size: 0.8rem;
+  }
+
+  .centre-text p{
+    font-size: 1rem;
+    padding: 10px 0 20px;
+  }
+
+  .colmns{
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 100%;
+    padding: 50px ;
+    transition: 0.3s;
+    border: medium none;
+  }
+    .review-person{
+    width: 110px;
+    border-radius: 100%;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+
+  }
+
+  .slideinner{
+    width: 89% !important;
+    height: 100%;
+    margin-left:20px !important;
+    padding: 70px 30px !important;
+
+  }
+
+  .header-extradiv h1{
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    padding-bottom: 10px;
+    font-size: 40px;
+  }
+
+   i {
+  padding-top: 50px;
+  }
+
+.subject h1{
+  font-size: 25px;
+}
+.subjectline2 {
+  font-size: 15px;
+}
+
+  .subjectSVG{
+    padding: 50px 0 10px 40px;
+    width: 180px;
+    margin-left: 50px;
+  }
+
+  .subject{
+    margin-top: 10px;
+    padding: 30px 0;
+    }
+
+  .subName{
+    padding-top: 20px;
+    padding-left: 20px;
+      font-size: 25px;
+  }
+
+  .subDesc{
+    font-weight: 200 !important;
+    font-size: 0.8rem !important;
+    padding: 0 0 10px 20px;
+  }
+
+  .knowMorebtn{
+    width: 60%;
+  }
+
+  .counter{
+    padding: 40px;
+    background: #09203f;
+
+  }
+
+  .counter h2{
+
+    padding: 20px 50px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .counter h1{
+    font-size: 20px;
+  }
+.counter p{
+  padding: 0 20px;
+  font-size: 14px;
+}
+  .benefit-div{
+    width: 100%;
+    height:auto;
+    padding:50px 60px 0 60px;
+    position: relative;
+
+  }
+
+  .benefit-div h1{
+    font-size: 30px;
+  }
+
+  .benefitSVG{
+    margin-left: 10px;
+    padding-right: 20px;
+    width: 80px;
+    margin-top: 30px;
+  }
+  .benefit-div h2{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 40px;
+
+  }
+  .benefit-div p{
+    font-size: 10px;
+    text-align: left;
+
+  }
+
+  .img-desc{
+    text-align: center;
+    padding: 20px 0 ;
+    font-weight: bold;
+    border-style: 2px solid;
+  }
+
+  .card-text{
+    font-size: 15px;
+  }
+
+  .benefit-div:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
+  .rightclm{
+    padding: 30px 20px;
+  }
+
+  .classes-div{
+    padding: 50px 80px;
+    background: linear-gradient(160deg,#cfd9df 50%,#09203f 0%);
+
+  }
+  .classes-div h1{
+    font-size: 40px;
+  }
+
+  .classesline2{
+    font-size: 20px;;
+  }
+
+  .class-btn{
+    width: 100%;
+    margin: 5px;
+  }
+
+  .class7-10{
+    margin-top: 0 ;
+  }
+
+  .dropbtn{
+    position: relative;
+    z-index: 10;
+  }
+  .dropdown{
+    width: 80px !important;
+  }
+
+  .carousel-indicators{
+    margin-bottom: -30px;
+  }
+  .carousel-indicators li{
+    background-color: black !important;
+  }
+
+  .join{
+    width: 100%;
+    height: 100%;
+    padding: 80px 50px 50px;
+    position: relative;
+  }
+
+  .join p{
+   font-size: 15px;
+
+  }
+
+
+.join h1{
+  font-size: 40px;
+}
+
+
+}
